@@ -1,5 +1,5 @@
-import React from "react";
+import React, { createContext } from "react";
 
-const arrayContext = React.useContext();
+const arrayContext = createContext()
 
 export default arrayContext;

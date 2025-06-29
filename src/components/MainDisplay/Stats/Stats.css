@@ -1,1 +1,24 @@
 
+.stats-wrapper {
+    border: solid;
+    width: 300px;
+}
+
+.stats-wrapper .button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.stats-wrapper .extend-button {
+    margin-top: 7px;
+    margin-right: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.extend-button:active {
+    transform: scale(.93);
+}
