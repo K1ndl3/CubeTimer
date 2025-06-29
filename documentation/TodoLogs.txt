@@ -3,3 +3,11 @@ TODO1: DONE
     - Think of a good title
     - style
     - There will be no background color
+
+TODO2:
+    - Set up context or pass state as prop for solve times
+    - set elements in the state as objects with meta data and times
+    - Object includes: 
+        1) Solve times
+        2) Scramble
+        3) Data and Time
