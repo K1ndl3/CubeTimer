@@ -2,6 +2,10 @@
 .stats-wrapper {
     border: solid;
     width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow: hidden;
 }
 
 .stats-wrapper .button-wrapper {
@@ -21,4 +25,10 @@
 
 .extend-button:active {
     transform: scale(.93);
+}
+
+.solve-history {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
 }
